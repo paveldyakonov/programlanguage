@@ -122,7 +122,7 @@ void queue_task()
                 q3.pop();
             }
         }
-        s += 1;
+        s=q.back();
         
         q1.push(2 * s);
         q2.push(3 * s);
