@@ -16,7 +16,8 @@ void Mymap()
     cout << "Введите строку: \n";
     string s,s1;
     map <string, int> mp;
-    int a,b,c,k=1;
+    int a,b,c=5,k=1;
+
     getline(cin, s);
     for (int i = 0; i < s.length(); i++)          //кол-во слов
     {
@@ -26,12 +27,13 @@ void Mymap()
     {
         a = 1;
         b = s.find(' ');
-        c = s.length() - b - 1;
+        //c = s.length() - b - 1;
         s1 = s.substr(0, b);
-        pair <string, int> p1 = make_pair(s1, a+1);
+        //pair <string, int> p1 = make_pair(s1, a+1);
         mp[s1] += a;
         s.erase(0, b+1);
     }
+    mp[s1] = c;
     map <string, int> ::iterator it = mp.begin();
     cout << "Список: " << endl;
     for (int i = 1; it != mp.end(); it++, i++) {  // выводим их

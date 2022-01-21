@@ -29,8 +29,7 @@ void Mylist()
         pair <string, string> p1 = make_pair(s, s1);
         
         mp[s] +="\n"+s1;
-        l1.push_back(s1);
-        
+        //l1.push_back(s1);
         //mp.insert(p1);
         //l1.push_back(s1);
     }

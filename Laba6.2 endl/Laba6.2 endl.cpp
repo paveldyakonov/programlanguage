@@ -9,7 +9,7 @@ using std::cout;
 using std::string;
 using std::deque;
 using std::endl;
-void palind(string& s)
+void palind(string s)
 {
     cout << "\n\n";
     int g, n;

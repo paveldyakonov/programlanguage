@@ -8,16 +8,6 @@ using std::cout;
 using std::endl;
 using std::queue;
 
-unsigned Div(unsigned a) 
-{
-    while (a % 2 == 0)
-        a /= 2;
-    while (a % 3 == 0)
-        a /= 3;
-    while (a % 5 == 0)
-        a /= 5;
-    return a;
-}
 
 void queue_task()
 {
@@ -39,12 +29,8 @@ void queue_task()
         if ((q1.front() < q2.front()) and (q1.front() < q3.front()))
         {
             
-            if (Div(q1.front()) == 1)
-            {
                 q.push(q1.front());
                 q1.pop();
-            }
-            else q1.pop();
         }
         else if ((q1.front() > q2.front()) and (q2.front() < q3.front()))
         {
@@ -133,16 +119,12 @@ void queue_task()
     cout << q.size()<<"\n";
     
     int y;
+
     while (q.empty()==false)
     {
-        y = q.front();
-        if (Div(y) == 1)
-        {
-            cout << q.front() << " ";
-            q.pop();
-        }
-        else q.pop();
-
+        cout << q.front() << " ";
+        q.pop();
+        
     }
     
 }

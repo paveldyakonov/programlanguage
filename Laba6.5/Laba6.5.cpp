@@ -22,7 +22,7 @@ void mset()
     {
         getline(cin, s);
         if (s == ".") break;
-        if (s!="100") Myset.emplace(s);
+        Myset.emplace(s);
     }
     cout << "\nРезультат:";
     
