@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T12:06:30.064Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="nbR2JeqAixYA2rjJdvdR" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T12:16:18.431Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="trmbhRMOfrQfq75703z7" version="21.3.2" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="2584" dy="2929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -6,6 +6,9 @@
         <mxCell id="1" parent="0" />
         <mxCell id="lP0xC-G9esosrG4WnK02-2211" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2210" y="530" width="2110" height="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZnCMhsj5Q9f0eET1_eJ-2180" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4020" y="528.36" width="300" height="371.64" as="geometry" />
         </mxCell>
         <mxCell id="FBBcUjEUcP34U0jMtz23-2259" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="890" y="370" width="910" height="910" as="geometry" />
@@ -444,6 +447,12 @@
         </mxCell>
         <mxCell id="3ZnCMhsj5Q9f0eET1_eJ-2174" value="" style="line;strokeWidth=2;direction=south;html=1;fontSize=17;rotation=-30;" vertex="1" parent="1">
           <mxGeometry x="2677" y="1222.5" width="10" height="85.43" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZnCMhsj5Q9f0eET1_eJ-2179" value="" style="shape=mxgraph.cisco.storage.cisco_file_engine;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="4060" y="669.33" width="130" height="100.67" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZnCMhsj5Q9f0eET1_eJ-2181" value="&lt;p style=&quot;line-height: 40%;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Хранилище резервных копий&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=42;" vertex="1" parent="1">
+          <mxGeometry x="4070" y="782.9999999999999" width="120" height="67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
